@@ -7,11 +7,16 @@ body{
 	margin: 0 auto;
 }
 
+ul{
+	padding: 0px;
+}
+
 .contactForm{
 	margin-top: 100px;
 	display: flex;
 	flex-direction: column;
 }
+
 
 input, button{
 	width: 25%;
@@ -37,10 +42,20 @@ button{
 
 
 .contactItem{
-	text-align: center;
-	width: 33%;
-	margin: 0 auto;
-	display: inline-block;
-	padding: 10px 0;
+	
+  width: 25%;
+	margin: 10px auto;
+  padding: 7px;
+  border: 1px solid #cccccc;
+
 }
+
+.contactImage{
+	padding-top: 20px;
+	width: 20%;
+	float: left;
+}
+
+
+
 
